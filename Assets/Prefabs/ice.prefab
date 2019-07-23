@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6435478842518457943}
   - component: {fileID: 6435478842518457946}
   - component: {fileID: 76559476987180147}
+  - component: {fileID: 419842049902454639}
   m_Layer: 0
   m_Name: ice
   m_TagString: Ice
@@ -219,3 +220,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!320 &419842049902454639
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435478842518457937}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 0}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []

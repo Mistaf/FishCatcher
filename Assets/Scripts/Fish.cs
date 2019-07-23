@@ -34,7 +34,7 @@ public class Fish : MonoBehaviour
         }
 
         if (wayDown && direction.y > transform.position.y)Destroy(this.gameObject);
-        GetComponent<SpriteRenderer>().flipX = !(direction.y > transform.position.y);
+        GetComponent<SpriteRenderer>().flipY = !(direction.y > transform.position.y);
         wayDown = !(direction.y > transform.position.y);
     }
 }
