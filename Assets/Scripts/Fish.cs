@@ -25,7 +25,7 @@ public class Fish : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, direction) > 0.2f)
         {
-            transform.position = Vector2.MoveTowards(transform.position, direction, speed);
+            transform.position = Vector2.MoveTowards(transform.position, direction, speed * Time.deltaTime);
         }
         else
         {

@@ -22,7 +22,7 @@ public class Ice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector2.Distance(transform.position, direction) > 0.2f)transform.position = Vector2.MoveTowards(transform.position, direction, speed);
+        if (Vector2.Distance(transform.position, direction) > 0.2f)transform.position = Vector2.MoveTowards(transform.position, direction, speed*Time.deltaTime);
         if(transform.position.y> GameObject.FindGameObjectWithTag("Penguin").transform.position.y)
         {
             splash.Play();
